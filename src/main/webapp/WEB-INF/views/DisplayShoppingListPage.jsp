@@ -10,7 +10,7 @@
 	</div>
 	
 	<div align="right">
-		<a href="/e-commerce/userLogout">Logout</a>
+		<a href="/shopping-mvc-part2/userLogout">Logout</a>
 	</div>
 	
 	<div align="center">

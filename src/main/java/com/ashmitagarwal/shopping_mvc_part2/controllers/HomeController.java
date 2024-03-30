@@ -23,7 +23,7 @@ public class HomeController {
 		String username =  (String) model.getAttribute("username");
 		if(username != null)
 		{
-			System.out.println("Username found in session: " + username);
+			System.out.println("Username found in session @homePage: " + username);
 			return "UserLoginSuccessPage";
 		}
 		return "HomePage";
@@ -35,7 +35,7 @@ public class HomeController {
 		String username =  (String) model.getAttribute("username");
 		if(username != null)
 		{
-			System.out.println("Username found in session: " + username);
+			System.out.println("Username found in session @userLogin: " + username);
 			return "UserLoginSuccessPage";
 		}
 		return "UserLoginPage";
@@ -47,7 +47,7 @@ public class HomeController {
 		String username =  (String) model.getAttribute("username");
 		if(username != null)
 		{
-			System.out.println("Username found in session: " + username);
+			System.out.println("Username found in session @userRegistration: " + username);
 			return "UserLoginSuccessPage";
 		}
 		return "UserRegistrationPage";
@@ -103,7 +103,7 @@ public class HomeController {
 		String username =  (String) model.getAttribute("username");
 		if(username != null)
 		{
-			System.out.println("Username found in session: " + username);
+			System.out.println("Username found in session @userLogout: " + username);
 			status.setComplete();
 		}
 		return "UserLoginPage";

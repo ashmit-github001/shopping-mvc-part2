@@ -12,7 +12,7 @@
 			}
 
 		function alertFunc() {
-			window.location.href="/e-commerce/userLogin"
+			window.location.href="/shopping-mvc-part2/userLogin"
 		}
 		
 		myFunction();
